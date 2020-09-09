@@ -1,4 +1,6 @@
 /*
+  SET IMPLEMENTATION
+  
   Little  notes:
      Remember you can also implement set using class instead of using a function.
      and by default JavaScript has Set class build in.
