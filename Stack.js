@@ -1,3 +1,4 @@
+/* Stack Implementation */
 /* 
   Little  notes:
      Remember you can also implement stack using class instead of using a function.
