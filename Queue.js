@@ -1,4 +1,6 @@
 /*
+        QUEUE IMPLEMENTATION
+
   Little  notes:
      The Queue data sturcture is a way to hold data. 
      It is similar to a stack unlike stack which is 
