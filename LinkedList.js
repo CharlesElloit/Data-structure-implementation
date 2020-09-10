@@ -1,4 +1,6 @@
-/* LinkedList implementation in JavaScript */
+/* 
+  LinkedList implementation in JavaScript 
+*/
 
 function LiskedList() {
   let length = 0;
