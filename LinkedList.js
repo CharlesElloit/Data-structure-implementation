@@ -3,20 +3,30 @@
 */
 
 function LiskedList() {
-  let length = 0;
-  let head = null;
+  let length = 0; //this is the length of linklist
+  let head = null; //when the linklist is created the head will always point to null.
 
-  //This function create a node
+  //This function create a node with the element passed in to the function 
+  //And then the link will point to null.
   let Node = function(element) {
     this.element = element;
     this.next = null;
   };
-
+  
+  //this function create a head and also return the head created.
   this.head = () => head;
 
   //This function get the size of the LinkedList
   this.size = () => length;
 
+  /* 
+  this adds node to the linklist but first we should check if the node
+  is pointing to null if so then assign the node to the head and then 
+  the node which is added should point to null.
+  else if the head is not null then we need to loop throught the current node.next
+  until we find the node which point to the null and then add the node and then the added node.next
+  will ponit to null.
+  */
   this.add = element => {
     let node = new Node(element);
 
