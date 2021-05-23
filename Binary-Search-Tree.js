@@ -1,4 +1,4 @@
-/* Binary Search Tree implementation in JavaScript */
+/* Tree data structure implementation in JavaScript */
 
 /* Here we are going to use classes to construct the Binary Search Tree */
 
